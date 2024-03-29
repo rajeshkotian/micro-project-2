@@ -1,0 +1,284 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: #6F6AF7;
+    width: 100%;
+    display: flex;
+    gap: 5rem;
+    height: 90px;
+    align-items: center;
+    position: fixed;
+    top:0;
+
+}
+
+#search {
+    width: 190px; 
+    height: 10px; 
+    padding: 10px; 
+    font-size: 13px; 
+    border-radius: 1.2rem;
+    border: solid white;
+ }
+
+.srch{
+
+    position: relative;
+    right: 2rem;
+    height: 14px;
+    top: 0.2rem;
+}
+
+ .menu{
+    height: 30px;
+ }
+
+#head {
+    font-size: 43px;
+    font-weight: 700;
+    color: white;
+    font-family: "Delius Unicase", cursive;
+    padding: 14px ;
+    }
+
+    .main small{
+        font-family: "DM Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        color: white; }
+
+
+        .body1 > img{
+            height: 380px;
+            width: 340px;
+        }
+
+        .body1 {
+            margin-left: 4vw;
+        }
+
+        .body2 {
+         
+            background-color: #E5D8FF;
+    color: #6F7373;
+    height: 350px;
+    width: 655px;
+    letter-spacing: 0.5px;
+    border-radius: 0.6rem;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    padding: 25px;
+    /* position: absolute; */
+    left: 30rem;
+    align-items: flex-start;
+    top: 10.6rem;
+    display: flex;
+    flex-direction: column;
+        }
+        
+        .body3{
+            position: sticky;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  top: 34vh;
+  margin-top: 14vh;
+  margin-right: 0.5em;
+
+        }
+
+
+        .container {
+            display: flex;
+            margin-top: 47vh;
+            gap: 8vw;
+        }
+
+
+    .img1{
+        height: 60px;
+        width: 65px;
+    }
+        
+.btmbox
+{
+ flex-direction: row;
+ display: flex;
+ justify-content: center;
+ font-family: "DM Sans", sans-serif;
+ font-size: 17px;
+ padding-right: 20px;
+
+}
+ .box1 {
+    background-color:#929DFF;
+    color: white;
+    height: 40px;
+    width: 210px;
+    margin: 20px;
+    border-radius: 0.6rem;
+    text-align: left;
+    padding: 12px 12px 12px 12px;
+ }
+
+    .box2 {
+        background-color:  #734CF2; 
+        color: white;
+        height: 40px;
+        width:220px;
+        margin: 20px;
+        border-radius: 0.6rem;
+        padding: 12px 12px 12px 12px;
+     }
+
+        .box3 {
+            color: white;
+            background-color:  #D288FF;
+            height:40px;
+            width: 220px;
+            margin: 20px;
+            border-radius: 0.6rem;
+            padding: 12px 12px 12px 12px;
+        }
+
+            .box4 {
+                color: white;
+               background-color: #000000;
+               height: 40px;
+               width: 220px;
+               margin: 20px;
+                border-radius: 0.6rem;
+                padding: 12px 12px 12px 12px;}
+
+ .footmain
+ {
+display: flex; 
+ font-family: "DM Sans", sans-serif;
+ font-size: 17px;
+ background-color: #483EFF;
+ left: 5rem;
+ width: 68rem;
+ height: 400px;
+top:4rem;
+text-align: center;
+border-radius: 0.6rem;
+}
+
+
+.footmain > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.footbody1 {
+    top:2rem;
+    left: 1rem;
+    color: black;
+   background-color: #BCE0F6 ;
+   height: 70px;
+   width: 220px;
+   margin: 20px;
+   border-radius: 0.6rem;
+  border: 3px solid #BCE0F6 ;
+  font-weight:bold;
+    }
+
+    
+.footbody2 {
+    top:2rem;
+    left: 1rem;
+    color: white;
+    height: 70px;
+    width: 220px;
+    margin: 20px;
+     border-radius: 0.6rem;
+     border: 3px solid white;
+     font-weight:bold;
+    }
+
+    .foot-main2 { 
+        background-color: white;
+        color: #04285A;
+        height: 91vh;
+        width: 715px;
+        letter-spacing: 0.5px;
+        border-radius: 0.6rem;
+        font-family: "DM Sans", sans-serif;
+        font-size: 18px;
+        padding: 15px;
+        left: 20rem;
+        align-items: flex-start;
+        top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 7vh;
+    }
+    
+    .container2{
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 23vh;
+        margin-left: 6vw;
+        gap: 6vh;
+    }
+   
+    
+    .row {
+      display: flex;
+
+    }
+    
+    .label {
+      font-weight: bold;
+      width: 70px;
+    }
+    
+    .value {
+      margin-left: 10px;
+    }
+
+
+.mainhead{
+
+
+        font-size: 32px;
+        margin-top: 10vh;
+        margin-left: 6vw;
+}
+
+.next{
+    position: relative;
+    background-color: #000000;
+    color: white;
+    bottom: 2rem;
+    left: 19rem;
+    font-family: "Inter", sans-serif;
+    padding: 0.4rem 2rem;
+    letter-spacing: 0.5px;
+    border-radius: 0.3rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+}
+
+    .callimg{
+position: fixed;
+  justify-content: right;
+  bottom: 1vh;
+  right: 7vw;
+  width: 8vw;
+    }
+   
+    .callimg >img {
+        width: 104px;
+    }
+
+    
