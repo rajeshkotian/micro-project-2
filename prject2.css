@@ -267,8 +267,8 @@
 }
 
 .next >img {
-    height: 4vh;
-    width: 7vh;
+    height: 2vh;
+    width: 5vh;
 }
 
 .callimg {
@@ -278,6 +278,6 @@
     width: 8vw;
 }
 
-.callimg>img {
+.callimg >img {
     width: 104px;
 }
